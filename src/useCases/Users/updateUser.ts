@@ -1,5 +1,5 @@
 import { Repository } from 'typeorm';
-import UserDto from '../../dtos/userDtos';
+import UserDto from '../../../dtos/userDtos';
 import { User } from '../../entities/User';
 import { UsersRepository } from '../../repositories/UsersRepository';
 

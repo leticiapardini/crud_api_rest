@@ -14,14 +14,6 @@ export const Auth = (passport: PassportStatic) => {
       if(!user) {
         return done(null, false, { message: "Usuário não encontrado"})
       }
-      // compare(password, user.password, (err, response) => {
-      //   if(response){
-      //     return done(null, user)
-      //   }
-
-      //   return done(null, false, {message: "Senha incorreta"})
-      // })
-
       if(user.password !== password){
         return done(null, false, {message: "Senha incorreta"})
       }

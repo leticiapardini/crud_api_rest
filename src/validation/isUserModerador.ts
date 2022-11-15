@@ -1,15 +1,5 @@
-import { User } from '../entities/User';
-import { Post } from '../entities/Post'
 
-interface IsUserModeratorProps {
-  user: User;
-}
-
-interface IsPostModeratorProps {
-  post: Post;
-}
-
-const isUserModerator = ( userId : number  , postId : number ) =>
+const isUserModerator = ( userId : string  , postId : string ) =>
   userId === postId;
 
 export default isUserModerator;
