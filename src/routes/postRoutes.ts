@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import PostsDto from '../../dtos/postsDtos';
+import PostsDto from '../dtos/postsDtos';
 import CreatePostUseCase from '../useCases/Posts/createPost';
 import verifyUser from '../validation/isUserModerador';
 import ListPostsUseCase from '../useCases/Posts/listPost';

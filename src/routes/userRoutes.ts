@@ -1,6 +1,6 @@
 import passport  from 'passport';
 import { Router } from 'express';
-import UserDto from '../../dtos/userDtos';
+import UserDto from '../dtos/userDtos';
 import { CreateUserUseCase } from '../useCases/Users/createUser';
 import { ListUsersUseCase } from '../useCases/Users/listUsers';
 import { GetUserUseCase } from '../useCases/Users/getUsers';

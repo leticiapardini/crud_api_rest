@@ -2,7 +2,7 @@ import { Repository } from 'typeorm';
 import { Post } from '../../entities/Post';
 import { PostsRepository } from '../../repositories/PostRepository';
 
-import HttpResponseDto from '../../../dtos/httpResponseDto';
+import HttpResponseDto from '../../dtos/httpResponseDto';
 
 export default class ListPostsUseCase {
   private _postsRepository: Repository<Post>;

@@ -1,8 +1,8 @@
 import { Repository } from "typeorm";
 import { User } from "../../entities/User";
 import { UsersRepository } from "../../repositories/UsersRepository";
-import UserDto from "../../../dtos/userDtos";
-import HttpResponseDto from "../../../dtos/httpResponseDto";
+import UserDto from "../../dtos/userDtos";
+import HttpResponseDto from "../../dtos/httpResponseDto";
 import { emailPattern } from "../../utils/regex";
 
 
