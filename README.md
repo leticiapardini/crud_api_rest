@@ -49,7 +49,7 @@ yarn install
 ```
 
 Feito isso, abra o seu navegador e acesse `http://localhost:8080/`
-ou em uma porta de sua preferência.
+
 
 Outras rotas para acessar também é as rotas de posts e users, basta apenas acrescentar os nomes a frente do link.
 
