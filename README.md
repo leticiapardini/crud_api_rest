@@ -26,6 +26,9 @@ yarn install
 
 #Configurar o banco de dados utilizando os seguintes dados
 
+  OBS: vc precisará definir a senha do seu usuário "root" como "mysql" e criar seu schema com o nome de "app", todas as informações a baixo:
+
+
   HOST= "localhost"
   PORT= "3306"
   USERNAME= "root"
